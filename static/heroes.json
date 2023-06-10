@@ -1,0 +1,187 @@
+[
+    {
+        "name": "Ana",
+        "image": "Icon-Ana.webp",
+        "role": "support"
+    },
+    {
+        "name": "Ashe",
+        "image": "Icon-Ashe.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Baptiste",
+        "image": "Icon-Baptiste.webp",
+        "role": "support"
+    },
+    {
+        "name": "Bastion",
+        "image": "Icon-Bastion.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Brigitte",
+        "image": "Icon-Brigitte.webp",
+        "role": "support"
+    },
+    {
+        "name": "Cassidy",
+        "image": "Icon-Cassidy.webp",
+        "role": "damage"
+    },
+    {
+        "name": "D.Va",
+        "image": "Icon-D.Va.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Doomfist",
+        "image": "Icon-Doomfist.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Echo",
+        "image": "Icon-Echo.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Genji",
+        "image": "Icon-Genji.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Hanzo",
+        "image": "Icon-Hanzo.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Junker Queen",
+        "image": "Icon-Junker_Queen.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Junkrat",
+        "image": "Icon-Junkrat.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Kiriko",
+        "image": "Icon-Kiriko.webp",
+        "role": "support"
+    },
+    {
+        "name": "Lifeweaver",
+        "image": "Icon-Lifeweaver.webp",
+        "role": "support"
+    },
+    {
+        "name": "Lucio",
+        "image": "Icon-Lucio.webp",
+        "role": "support"
+    },
+    {
+        "name": "Mei",
+        "image": "Icon-Mei.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Mercy",
+        "image": "Icon-Mercy.webp",
+        "role": "support"
+    },
+    {
+        "name": "Moira",
+        "image": "Icon-Moira.webp",
+        "role": "support"
+    },
+    {
+        "name": "Orisa",
+        "image": "Icon-Orisa.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Pharah",
+        "image": "Icon-Pharah.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Ramattra",
+        "image": "Icon-Ramattra.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Reaper",
+        "image": "Icon-Reaper.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Reinhardt",
+        "image": "Icon-Reinhardt.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Roadhog",
+        "image": "Icon-Roadhog.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Sigma",
+        "image": "Icon-Sigma.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Sojourn",
+        "image": "Icon-Sojourn.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Soldier 76",
+        "image": "Icon-Soldier_76.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Sombra",
+        "image": "Icon-Sombra.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Symmetra",
+        "image": "Icon-Symmetra.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Torbjörn",
+        "image": "Icon-Torbjorn.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Tracer",
+        "image": "Icon-Tracer.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Widowmaker",
+        "image": "Icon-Widowmaker.webp",
+        "role": "damage"
+    },
+    {
+        "name": "Winston",
+        "image": "Icon-Winston.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Wrecking Ball",
+        "image": "Icon-Wrecking_Ball.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Zarya",
+        "image": "Icon-Zarya.webp",
+        "role": "tank"
+    },
+    {
+        "name": "Zenyatta",
+        "image": "Icon-Zenyatta.webp",
+        "role": "support"
+    }
+]

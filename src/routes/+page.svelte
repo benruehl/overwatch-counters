@@ -1,2 +1,63 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import HeroCard from '../lib/components/HeroCard.svelte';
+    import type { Hero } from '../lib/types';
+    import type { PageData } from './$types';
+
+    export let data: PageData;
+
+    const getRoleOrder = (role: string): number => ({
+        tank: 0,
+        damage: 1,
+        support: 2
+    })[role] || -1
+
+    const roleSortFn = (a: [string, Hero[]], b: [string, Hero[]]) =>
+        getRoleOrder(a[0]) - getRoleOrder(b[0])
+</script>
+
+<h1>Overwatch</h1>
+<section class="root">
+    {#each Object.entries(data.heroesByRole).sort(roleSortFn) as roleWithHeroes}
+        <div class="role-container">
+            <h3>{roleWithHeroes[0]}</h3>
+            <div class="break"></div>
+            {#each roleWithHeroes[1] as hero}
+                <HeroCard name={hero.name} imageUrl={hero.image} />
+            {/each}
+        </div>
+    {/each}
+</section>
+
+<style>
+.root {
+    display: flex;
+    gap: 20px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: Dosis;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.role-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    justify-content: center;
+    gap: 4px;
+}
+.role-container:first-child {
+    justify-content: end;
+}
+.role-container:last-child {
+    justify-content: start;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+</style>
