@@ -3,10 +3,10 @@
     export let imageUrl: string;
 </script>
 
-<div class="hero-card">
+<a class="hero-card" href={`/hero/${name.toLowerCase()}`}>
     <img src={imageUrl} alt={name}/>
     <caption>{name}</caption>
-</div>
+</a>
 
 <style lang="sass">
     .hero-card
@@ -17,6 +17,7 @@
         display: flex
         flex-direction: column
         align-items: center
+        text-decoration: none
         transition: all .2s ease
         &:hover
             scale: 1.2

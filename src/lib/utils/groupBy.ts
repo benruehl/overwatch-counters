@@ -1,5 +1,5 @@
-export const groupBy = <T>(array: T[], predicate: (value: T, index: number, array: T[]) => string) =>
-    array.reduce((acc, value, index, array) => {
-        (acc[predicate(value, index, array)] ||= []).push(value);
-        return acc;
-    }, {} as { [key: string]: T[] });
+export const groupBy = <T, K extends keyof any>(arr: T[], key: (i: T) => K) =>
+  arr.reduce((groups, item) => {
+    (groups[key(item)] ||= []).push(item);
+    return groups;
+  }, {} as Record<K, T[]>);

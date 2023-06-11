@@ -1,9 +1,33 @@
+@import 'variables'
+
 @font-face
     font-family: 'Dosis'
     font-style: normal
     font-weight: 500
     src: local('Dosis'), url('/fonts/Dosis-VariableFont_wght.ttf') format('truetype')
 
+html
+    font-size: $font-size-root
+    min-height: 100vh
+    height: 100%
+
 body
     background: radial-gradient(31.74% 3046.23% at 50% 49.81%,#242a42 0,#121524 100%)
     color: #fff
+    font-family: $font-family, Arial, Helvetica, sans-serif
+    font-size: $font-size
+    height: calc(100% - 16px)
+    margin: 8px
+
+h3
+    font-size: 1.2em
+    font-weight: bold
+    letter-spacing: 2px
+    text-transform: uppercase
+
+h4
+    font-size: 1.2em
+    font-weight: normal
+    text-transform: uppercase
+    margin-top: 1em
+    margin-bottom: .8em

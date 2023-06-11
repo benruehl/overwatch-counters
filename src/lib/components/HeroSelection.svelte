@@ -1,21 +1,13 @@
 <script lang="ts">
-    import type { Hero } from "$lib/models";
+    import type { Hero, HeroRole } from "$lib/models";
+    import { compareHeroRoles, getEntries } from "$lib/utils";
     import HeroCard from "./HeroCard.svelte";
 
-    export let heroesByRole: { [key: string]: Hero[] };
-
-    const getRoleOrder = (role: string): number => ({
-        tank: 0,
-        damage: 1,
-        support: 2
-    })[role] || -1
-
-    const roleSortFn = (a: [string, Hero[]], b: [string, Hero[]]) =>
-        getRoleOrder(a[0]) - getRoleOrder(b[0])
+    export let heroesByRole: { [key in HeroRole]: Hero[] };
 </script>
 
 <section class="root">
-    {#each Object.entries(heroesByRole).sort(roleSortFn) as roleWithHeroes}
+    {#each (getEntries(heroesByRole)).sort(compareHeroRoles) as roleWithHeroes}
         <div class="role-container">
             <h3>{roleWithHeroes[0]}</h3>
             <div class="break"></div>
@@ -30,13 +22,6 @@
     .root
         display: flex
         gap: 20px
-    
-    h3
-        text-transform: uppercase
-        font-family: Dosis
-        font-weight: bold
-        font-size: 1.2em
-        letter-spacing: 2px
     
     .role-container
         display: flex
