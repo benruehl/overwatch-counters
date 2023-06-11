@@ -26,36 +26,30 @@
     {/each}
 </section>
 
-<style>
-    .root {
-        display: flex;
-        gap: 20px;
-    }
+<style lang="sass">
+    .root
+        display: flex
+        gap: 20px
     
-    h3 {
-        text-transform: uppercase;
-        font-family: Dosis;
-        font-weight: bold;
-        font-size: 1.2em;
-        letter-spacing: 2px;
-    }
+    h3
+        text-transform: uppercase
+        font-family: Dosis
+        font-weight: bold
+        font-size: 1.2em
+        letter-spacing: 2px
     
-    .role-container {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: start;
-        justify-content: center;
-        gap: 4px;
-    }
-    .role-container:first-child {
-        justify-content: end;
-    }
-    .role-container:last-child {
-        justify-content: start;
-    }
+    .role-container
+        display: flex
+        flex-wrap: wrap
+        align-content: start
+        justify-content: center
+        gap: 4px
+        &:first-child
+            justify-content: end
+        &:last-child
+            justify-content: start
     
-    .break {
-      flex-basis: 100%;
-      height: 0;
-    }
+    .break
+        flex-basis: 100%
+        height: 0
 </style>
