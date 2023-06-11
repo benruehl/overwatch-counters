@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Hero } from "../types";
+    import type { Hero } from "$lib/models";
     import HeroCard from "./HeroCard.svelte";
 
     export let heroesByRole: { [key: string]: Hero[] };

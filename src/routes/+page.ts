@@ -1,4 +1,5 @@
-import type { Hero } from '../lib/types';
+import type { Hero } from '$lib/models';
+import { groupBy } from '$lib/utils';
 import type { PageLoad } from './$types';
 
 export const load = (async ({ fetch }) => {
@@ -10,9 +11,3 @@ export const load = (async ({ fetch }) => {
 
     return { heroesByRole };
 }) satisfies PageLoad;
-
-const groupBy = <T>(array: T[], predicate: (value: T, index: number, array: T[]) => string) =>
-  array.reduce((acc, value, index, array) => {
-    (acc[predicate(value, index, array)] ||= []).push(value);
-    return acc;
-  }, {} as { [key: string]: T[] });
