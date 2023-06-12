@@ -1,7 +1,7 @@
 <script>
     import '../styles/app.sass'
 
-    export const prerender = true;
+    export const ssr = false;
 </script>
 
 <slot></slot>
