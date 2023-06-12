@@ -1,9 +1,11 @@
 <script lang='ts'>
+    import { base } from "$app/paths";
+
     export let name: string;
     export let imageUrl: string;
 </script>
 
-<a class="hero-card" href={`/hero/${name.toLowerCase()}`}>
+<a class="hero-card" href={`${base}/hero/${name.toLowerCase()}`}>
     <img src={imageUrl} alt={name}/>
     <caption>{name}</caption>
 </a>
