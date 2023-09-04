@@ -1,5 +1,5 @@
 {
-  "background_color": "#242a42",
+  "background_color": "#121524",
   "description": "Suggests counterpicks for Owerwatch 2.",
   "dir": "ltr",
   "display": "standalone",
@@ -8,13 +8,13 @@
   "scope": "/overwatch-counters/",
   "short_name": "OW Counters",
   "start_url": "/overwatch-counters/",
-  "theme_color": "#242a42",
+  "theme_color": "#121524",
   "categories": [
     "utilities"
   ],
   "screenshots": [],
   "shortcuts": [],
-  "id": "benruehl.github.io.overwatch-counters",
+  "id": "benruehl.overwatch-counters",
   "lang": "en",
   "prefer_related_applications": false,
   "icons": [
