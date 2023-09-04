@@ -137,6 +137,19 @@
         ]
     },
     {
+        "name": "Illari",
+        "image": "Icon-Illari.webp",
+        "role": "support",
+        "counteredBy": [
+            "Baptiste",
+            "D.Va",
+            "Genji",
+            "Lifeweaver",
+            "Orisa",
+            "Sombra"
+        ]
+    },
+    {
         "name": "Junker Queen",
         "image": "Icon-Junker_Queen.webp",
         "role": "tank",
