@@ -1,6 +1,6 @@
 {
   "background_color": "#121524",
-  "description": "Suggests counterpicks for Owerwatch 2.",
+  "description": "Suggests hero counterpicks for Overwatch 2.",
   "dir": "ltr",
   "display": "standalone",
   "name": "Overwatch Counters",
