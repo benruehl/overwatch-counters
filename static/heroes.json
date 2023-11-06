@@ -1,473 +1,473 @@
 [
-  {
-    "name": "Ana",
-    "image": "Icon-Ana.webp",
-    "role": "support",
-    "counteredBy": [
-      "Genji",
-      "Kiriko",
-      "Tracer",
-      "Widowmaker",
-      "Winston"
-    ]
-  },
-  {
-    "name": "Ashe",
-    "image": "Icon-Ashe.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Brigitte",
-      "D.Va",
-      "Genji",
-      "Mercy",
-      "Widowmaker",
-      "Winston"
-    ]
-  },
-  {
-    "name": "Baptiste",
-    "image": "Icon-Baptiste.webp",
-    "role": "support",
-    "counteredBy": [
-      "Ana",
-      "Doomfist",
-      "Genji",
-      "Roadhog",
-      "Sojourn"
-    ]
-  },
-  {
-    "name": "Bastion",
-    "image": "Icon-Bastion.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Ana",
-      "Baptiste",
-      "D.Va",
-      "Genji",
-      "Hanzo"
-    ]
-  },
-  {
-    "name": "Brigitte",
-    "image": "Icon-Brigitte.webp",
-    "role": "support",
-    "counteredBy": [
-      "Doomfist",
-      "Junkrat",
-      "Mercy",
-      "Pharah",
-      "Sigma"
-    ]
-  },
-  {
-    "name": "Cassidy",
-    "image": "Icon-Cassidy.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Ashe",
-      "D.Va",
-      "Kiriko",
-      "Moira",
-      "Reinhardt"
-    ]
-  },
-  {
-    "name": "D.Va",
-    "image": "Icon-D.Va.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Mei",
-      "Mercy",
-      "Ramattra",
-      "Symmetra",
-      "Zarya"
-    ]
-  },
-  {
-    "name": "Doomfist",
-    "image": "Icon-Doomfist.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Ana",
-      "Echo",
-      "Moira",
-      "Orisa",
-      "Roadhog",
-      "Sombra",
-      "Tracer"
-    ]
-  },
-  {
-    "name": "Echo",
-    "image": "Icon-Echo.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Ashe",
-      "Baptiste",
-      "Cassidy",
-      "Soldier 76",
-      "Zarya"
-    ]
-  },
-  {
-    "name": "Genji",
-    "image": "Icon-Genji.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Cassidy",
-      "Torbjorn",
-      "Mei",
-      "Moira",
-      "Symmetra",
-      "Winston",
-      "Zarya"
-    ]
-  },
-  {
-    "name": "Hanzo",
-    "image": "Icon-Hanzo.webp",
-    "role": "damage",
-    "counteredBy": [
-      "D.Va",
-      "Doomfist",
-      "Echo",
-      "Genji",
-      "Kiriko"
-    ]
-  },
-  {
-    "name": "Illari",
-    "image": "Icon-Illari.webp",
-    "role": "support",
-    "counteredBy": [
-      "Baptiste",
-      "D.Va",
-      "Genji",
-      "Lifeweaver",
-      "Orisa",
-      "Sombra"
-    ]
-  },
-  {
-    "name": "Junker Queen",
-    "image": "Icon-Junker_Queen.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Ana",
-      "Hanzo",
-      "Junkrat",
-      "Kiriko",
-      "Orisa",
-      "Ramattra",
-      "Reaper"
-    ]
-  },
-  {
-    "name": "Junkrat",
-    "image": "Icon-Junkrat.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Baptiste",
-      "Moira",
-      "Pharah",
-      "Zarya"
-    ]
-  },
-  {
-    "name": "Kiriko",
-    "image": "Icon-Kiriko.webp",
-    "role": "support",
-    "counteredBy": [
-      "Ashe",
-      "Winston",
-      "Zenyatta"
-    ]
-  },
-  {
-    "name": "Lifeweaver",
-    "image": "Icon-Lifeweaver.webp",
-    "role": "support",
-    "counteredBy": [
-      "Genji",
-      "Pharah",
-      "Sombra",
-      "Tracer",
-      "Winston"
-    ]
-  },
-  {
-    "name": "Lucio",
-    "image": "Icon-Lucio.webp",
-    "role": "support",
-    "counteredBy": [
-      "Moira",
-      "Orisa",
-      "Sombra",
-      "Torbjorn",
-      "Winston"
-    ]
-  },
-  {
-    "name": "Mauga",
-    "image": "Icon-Mauga.webp",
-    "role": "tank",
-    "counteredBy": [
-      "D.Va",
-      "Pharah",
-      "Sigma",
-      "Widowmaker"
-    ]
-  },
-  {
-    "name": "Mei",
-    "image": "Icon-Mei.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Bastion",
-      "Kiriko",
-      "Lifeweaver",
-      "Orisa",
-      "Zarya"
-    ]
-  },
-  {
-    "name": "Mercy",
-    "image": "Icon-Mercy.webp",
-    "role": "support",
-    "counteredBy": [
-      "Ana",
-      "Roadhog",
-      "Soldier 76",
-      "Zenyatta"
-    ]
-  },
-  {
-    "name": "Moira",
-    "image": "Icon-Moira.webp",
-    "role": "support",
-    "counteredBy": [
-      "Ana",
-      "D.Va",
-      "Torbjorn"
-    ]
-  },
-  {
-    "name": "Orisa",
-    "image": "Icon-Orisa.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Echo",
-      "Lifeweaver",
-      "Tracer",
-      "Winston",
-      "Wrecking Ball",
-      "Zarya",
-      "Zenyatta"
-    ]
-  },
-  {
-    "name": "Pharah",
-    "image": "Icon-Pharah.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Ana",
-      "Ashe",
-      "Baptiste",
-      "Cassidy",
-      "D.Va",
-      "Echo",
-      "Soldier 76",
-      "Widowmaker"
-    ]
-  },
-  {
-    "name": "Ramattra",
-    "image": "Icon-Ramattra.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Doomfist",
-      "Lucio",
-      "Pharah",
-      "Wrecking Ball"
-    ]
-  },
-  {
-    "name": "Reaper",
-    "image": "Icon-Reaper.webp",
-    "role": "damage",
-    "counteredBy": [
-      "D.Va",
-      "Hanzo",
-      "Lucio",
-      "Sigma"
-    ]
-  },
-  {
-    "name": "Reinhardt",
-    "image": "Icon-Reinhardt.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Baptiste",
-      "Bastion",
-      "Orisa",
-      "Pharah",
-      "Ramattra"
-    ]
-  },
-  {
-    "name": "Roadhog",
-    "image": "Icon-Roadhog.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Ana",
-      "Orisa",
-      "Reaper",
-      "Sigma",
-      "Soldier 76",
-      "Widowmaker"
-    ]
-  },
-  {
-    "name": "Sigma",
-    "image": "Icon-Sigma.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Cassidy",
-      "Lifeweaver",
-      "Reinhardt",
-      "Zenyatta"
-    ]
-  },
-  {
-    "name": "Sojourn",
-    "image": "Icon-Sojourn.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Doomfist",
-      "Echo",
-      "Mercy",
-      "Tracer",
-      "Winston"
-    ]
-  },
-  {
-    "name": "Soldier 76",
-    "image": "Icon-Soldier_76.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Reinhardt",
-      "Sigma",
-      "Tracer",
-      "Zenyatta"
-    ]
-  },
-  {
-    "name": "Sombra",
-    "image": "Icon-Sombra.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Brigitte",
-      "D.Va",
-      "Kiriko",
-      "Torbjorn"
-    ]
-  },
-  {
-    "name": "Symmetra",
-    "image": "Icon-Symmetra.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Doomfist",
-      "Junkrat",
-      "Moira",
-      "Pharah",
-      "Wrecking Ball",
-      "Zarya"
-    ]
-  },
-  {
-    "name": "Torbjörn",
-    "image": "Icon-Torbjorn.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Hanzo",
-      "Lucio",
-      "Pharah",
-      "Sigma",
-      "Zenyatta"
-    ]
-  },
-  {
-    "name": "Tracer",
-    "image": "Icon-Tracer.webp",
-    "role": "damage",
-    "counteredBy": [
-      "Brigitte",
-      "D.Va",
-      "Mei",
-      "Roadhog",
-      "Torbjorn"
-    ]
-  },
-  {
-    "name": "Widowmaker",
-    "image": "Icon-Widowmaker.webp",
-    "role": "damage",
-    "counteredBy": [
-      "D.Va",
-      "Genji",
-      "Lucio",
-      "Mercy",
-      "Sombra",
-      "Winston"
-    ]
-  },
-  {
-    "name": "Winston",
-    "image": "Icon-Winston.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Brigitte",
-      "Junker Queen",
-      "Reaper",
-      "Roadhog"
-    ]
-  },
-  {
-    "name": "Wrecking Ball",
-    "image": "Icon-Wrecking_Ball.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Ana",
-      "Brigitte",
-      "Junker Queen",
-      "Roadhog",
-      "Sombra"
-    ]
-  },
-  {
-    "name": "Zarya",
-    "image": "Icon-Zarya.webp",
-    "role": "tank",
-    "counteredBy": [
-      "Lifeweaver",
-      "Lucio",
-      "Reinhardt",
-      "Sojourn",
-      "Widowmaker",
-      "Winston"
-    ]
-  },
-  {
-    "name": "Zenyatta",
-    "image": "Icon-Zenyatta.webp",
-    "role": "support",
-    "counteredBy": [
-      "Ana",
-      "Junker Queen",
-      "Pharah",
-      "Tracer"
-    ]
-  }
+    {
+        "name": "Ana",
+        "image": "Icon-Ana.webp",
+        "role": "support",
+        "counteredBy": [
+            "Genji",
+            "Kiriko",
+            "Tracer",
+            "Widowmaker",
+            "Winston"
+        ]
+    },
+    {
+        "name": "Ashe",
+        "image": "Icon-Ashe.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Brigitte",
+            "D.Va",
+            "Genji",
+            "Mercy",
+            "Widowmaker",
+            "Winston"
+        ]
+    },
+    {
+        "name": "Baptiste",
+        "image": "Icon-Baptiste.webp",
+        "role": "support",
+        "counteredBy": [
+            "Ana",
+            "Doomfist",
+            "Genji",
+            "Roadhog",
+            "Sojourn"
+        ]
+    },
+    {
+        "name": "Bastion",
+        "image": "Icon-Bastion.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Ana",
+            "Baptiste",
+            "D.Va",
+            "Genji",
+            "Hanzo"
+        ]
+    },
+    {
+        "name": "Brigitte",
+        "image": "Icon-Brigitte.webp",
+        "role": "support",
+        "counteredBy": [
+            "Doomfist",
+            "Junkrat",
+            "Mercy",
+            "Pharah",
+            "Sigma"
+        ]
+    },
+    {
+        "name": "Cassidy",
+        "image": "Icon-Cassidy.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Ashe",
+            "D.Va",
+            "Kiriko",
+            "Moira",
+            "Reinhardt"
+        ]
+    },
+    {
+        "name": "D.Va",
+        "image": "Icon-D.Va.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Mei",
+            "Mercy",
+            "Ramattra",
+            "Symmetra",
+            "Zarya"
+        ]
+    },
+    {
+        "name": "Doomfist",
+        "image": "Icon-Doomfist.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Ana",
+            "Echo",
+            "Moira",
+            "Orisa",
+            "Roadhog",
+            "Sombra",
+            "Tracer"
+        ]
+    },
+    {
+        "name": "Echo",
+        "image": "Icon-Echo.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Ashe",
+            "Baptiste",
+            "Cassidy",
+            "Soldier 76",
+            "Zarya"
+        ]
+    },
+    {
+        "name": "Genji",
+        "image": "Icon-Genji.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Cassidy",
+            "Torbjorn",
+            "Mei",
+            "Moira",
+            "Symmetra",
+            "Winston",
+            "Zarya"
+        ]
+    },
+    {
+        "name": "Hanzo",
+        "image": "Icon-Hanzo.webp",
+        "role": "damage",
+        "counteredBy": [
+            "D.Va",
+            "Doomfist",
+            "Echo",
+            "Genji",
+            "Kiriko"
+        ]
+    },
+    {
+        "name": "Illari",
+        "image": "Icon-Illari.webp",
+        "role": "support",
+        "counteredBy": [
+            "Baptiste",
+            "D.Va",
+            "Genji",
+            "Lifeweaver",
+            "Orisa",
+            "Sombra"
+        ]
+    },
+    {
+        "name": "Junker Queen",
+        "image": "Icon-Junker_Queen.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Ana",
+            "Hanzo",
+            "Junkrat",
+            "Kiriko",
+            "Orisa",
+            "Ramattra",
+            "Reaper"
+        ]
+    },
+    {
+        "name": "Junkrat",
+        "image": "Icon-Junkrat.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Baptiste",
+            "Moira",
+            "Pharah",
+            "Zarya"
+        ]
+    },
+    {
+        "name": "Kiriko",
+        "image": "Icon-Kiriko.webp",
+        "role": "support",
+        "counteredBy": [
+            "Ashe",
+            "Winston",
+            "Zenyatta"
+        ]
+    },
+    {
+        "name": "Lifeweaver",
+        "image": "Icon-Lifeweaver.webp",
+        "role": "support",
+        "counteredBy": [
+            "Genji",
+            "Pharah",
+            "Sombra",
+            "Tracer",
+            "Winston"
+        ]
+    },
+    {
+        "name": "Lucio",
+        "image": "Icon-Lucio.webp",
+        "role": "support",
+        "counteredBy": [
+            "Moira",
+            "Orisa",
+            "Sombra",
+            "Torbjorn",
+            "Winston"
+        ]
+    },
+    {
+        "name": "Mauga",
+        "image": "Icon-Mauga.webp",
+        "role": "tank",
+        "counteredBy": [
+            "D.Va",
+            "Pharah",
+            "Sigma",
+            "Widowmaker"
+        ]
+    },
+    {
+        "name": "Mei",
+        "image": "Icon-Mei.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Bastion",
+            "Kiriko",
+            "Lifeweaver",
+            "Orisa",
+            "Zarya"
+        ]
+    },
+    {
+        "name": "Mercy",
+        "image": "Icon-Mercy.webp",
+        "role": "support",
+        "counteredBy": [
+            "Ana",
+            "Roadhog",
+            "Soldier 76",
+            "Zenyatta"
+        ]
+    },
+    {
+        "name": "Moira",
+        "image": "Icon-Moira.webp",
+        "role": "support",
+        "counteredBy": [
+            "Ana",
+            "D.Va",
+            "Torbjorn"
+        ]
+    },
+    {
+        "name": "Orisa",
+        "image": "Icon-Orisa.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Echo",
+            "Lifeweaver",
+            "Tracer",
+            "Winston",
+            "Wrecking Ball",
+            "Zarya",
+            "Zenyatta"
+        ]
+    },
+    {
+        "name": "Pharah",
+        "image": "Icon-Pharah.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Ana",
+            "Ashe",
+            "Baptiste",
+            "Cassidy",
+            "D.Va",
+            "Echo",
+            "Soldier 76",
+            "Widowmaker"
+        ]
+    },
+    {
+        "name": "Ramattra",
+        "image": "Icon-Ramattra.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Doomfist",
+            "Lucio",
+            "Pharah",
+            "Wrecking Ball"
+        ]
+    },
+    {
+        "name": "Reaper",
+        "image": "Icon-Reaper.webp",
+        "role": "damage",
+        "counteredBy": [
+            "D.Va",
+            "Hanzo",
+            "Lucio",
+            "Sigma"
+        ]
+    },
+    {
+        "name": "Reinhardt",
+        "image": "Icon-Reinhardt.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Baptiste",
+            "Bastion",
+            "Orisa",
+            "Pharah",
+            "Ramattra"
+        ]
+    },
+    {
+        "name": "Roadhog",
+        "image": "Icon-Roadhog.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Ana",
+            "Orisa",
+            "Reaper",
+            "Sigma",
+            "Soldier 76",
+            "Widowmaker"
+        ]
+    },
+    {
+        "name": "Sigma",
+        "image": "Icon-Sigma.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Cassidy",
+            "Lifeweaver",
+            "Reinhardt",
+            "Zenyatta"
+        ]
+    },
+    {
+        "name": "Sojourn",
+        "image": "Icon-Sojourn.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Doomfist",
+            "Echo",
+            "Mercy",
+            "Tracer",
+            "Winston"
+        ]
+    },
+    {
+        "name": "Soldier 76",
+        "image": "Icon-Soldier_76.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Reinhardt",
+            "Sigma",
+            "Tracer",
+            "Zenyatta"
+        ]
+    },
+    {
+        "name": "Sombra",
+        "image": "Icon-Sombra.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Brigitte",
+            "D.Va",
+            "Kiriko",
+            "Torbjorn"
+        ]
+    },
+    {
+        "name": "Symmetra",
+        "image": "Icon-Symmetra.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Doomfist",
+            "Junkrat",
+            "Moira",
+            "Pharah",
+            "Wrecking Ball",
+            "Zarya"
+        ]
+    },
+    {
+        "name": "Torbjörn",
+        "image": "Icon-Torbjorn.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Hanzo",
+            "Lucio",
+            "Pharah",
+            "Sigma",
+            "Zenyatta"
+        ]
+    },
+    {
+        "name": "Tracer",
+        "image": "Icon-Tracer.webp",
+        "role": "damage",
+        "counteredBy": [
+            "Brigitte",
+            "D.Va",
+            "Mei",
+            "Roadhog",
+            "Torbjorn"
+        ]
+    },
+    {
+        "name": "Widowmaker",
+        "image": "Icon-Widowmaker.webp",
+        "role": "damage",
+        "counteredBy": [
+            "D.Va",
+            "Genji",
+            "Lucio",
+            "Mercy",
+            "Sombra",
+            "Winston"
+        ]
+    },
+    {
+        "name": "Winston",
+        "image": "Icon-Winston.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Brigitte",
+            "Junker Queen",
+            "Reaper",
+            "Roadhog"
+        ]
+    },
+    {
+        "name": "Wrecking Ball",
+        "image": "Icon-Wrecking_Ball.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Ana",
+            "Brigitte",
+            "Junker Queen",
+            "Roadhog",
+            "Sombra"
+        ]
+    },
+    {
+        "name": "Zarya",
+        "image": "Icon-Zarya.webp",
+        "role": "tank",
+        "counteredBy": [
+            "Lifeweaver",
+            "Lucio",
+            "Reinhardt",
+            "Sojourn",
+            "Widowmaker",
+            "Winston"
+        ]
+    },
+    {
+        "name": "Zenyatta",
+        "image": "Icon-Zenyatta.webp",
+        "role": "support",
+        "counteredBy": [
+            "Ana",
+            "Junker Queen",
+            "Pharah",
+            "Tracer"
+        ]
+    }
 ]
