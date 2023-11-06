@@ -209,6 +209,17 @@
         ]
     },
     {
+        "name": "Mauga",
+        "image": "Icon-Mauga.webp",
+        "role": "tank",
+        "counteredBy": [
+            "D.Va",
+            "Pharah",
+            "Sigma",
+            "Widowmaker"
+        ]
+    },
+    {
         "name": "Mei",
         "image": "Icon-Mei.webp",
         "role": "damage",
